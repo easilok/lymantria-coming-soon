@@ -110,6 +110,7 @@ body {
  */
 .mastfoot {
   color: #999;
+  width: 100%;
   /* IE8 proofing */
   color: rgba(255, 255, 255, 0.5); }
 
@@ -160,3 +161,9 @@ body {
   .mastfoot,
   .cover-container {
     width: 1060px; } }
+
+@media (min-height: 500px) {
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+        /* width: 100%; */} }
